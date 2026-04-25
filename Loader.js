@@ -38,7 +38,10 @@
 		// 2. Scratch API のモックアップ
 		if (typeof window.Scratch === 'undefined') {
 			window.Scratch = {};
-			Scratch.translate = {};
+			window.tsDatas = {};
+			Scratch.translate = function (text) {
+				return text;
+			};
 			Scratch.translate.setup = function () {};
 		}
 
