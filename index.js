@@ -1,5 +1,5 @@
 (async () => {
-	const SRC = 'https://nyantorusabu.github.io/Re-013_Scrach';
+	const SRC = 'https://nyantorusabu.github.io/Re-013_Scratch';
 	async function LoadAssets() {
 		if (!window.Scratch) {
 			console.log('🛠️ Loaderを読み込み中...');
